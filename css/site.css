@@ -267,3 +267,7 @@ img { max-width: 100%; display: block; height: auto; }
   flex-direction: column;
   gap: 0.6rem;
 }
+
+.hero-sting {
+  color: var(--mute);
+}

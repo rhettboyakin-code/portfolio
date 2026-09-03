@@ -49,7 +49,7 @@ img { max-width: 100%; display: block; height: auto; }
   font-size: clamp(2.4rem, 6vw, 4.6rem);
   line-height: 1;
   letter-spacing: -0.03em;
-  max-width: 12ch;
+  max-width: 14ch;
   margin: 0;
   color: var(--paper);
 }

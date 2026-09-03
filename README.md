@@ -2,7 +2,7 @@
 
 Creative Director. Copywriter. Maker of Awesome Thingys®.
 
-This replaces the locked Adobe Portfolio at rhettboyakinportfolio.com. Old 2020 work is archived here. Found Money Friend (2026) sits first.
+This replaces the locked Adobe Portfolio at rhettboyakinportfolio.com. Agency work is archived here. Revenue Bloom sits first.
 
 ## Local
 Open `index.html`, or:

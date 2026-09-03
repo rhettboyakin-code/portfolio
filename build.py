@@ -40,37 +40,37 @@ PROJECTS = [
     {
         "slug": "morgan-jewelers",
         "title": "Morgan Jewelers",
-        "year": "2020",
+        "year": "",
         "lede": "A lot of “engaging” content. Little reason to not like it.",
     },
     {
         "slug": "zions-bank",
         "title": "Zions Bank",
-        "year": "2020",
+        "year": "",
         "lede": "Big, local bank. Worked on a wide range of mediums. Everything from TV to social. Made sure that behind every number is a story.",
     },
     {
         "slug": "arches-health-plan",
         "title": "Arches Health Plan",
-        "year": "2020",
+        "year": "",
         "lede": "Life’s better under the arch. See for yourself.",
     },
     {
         "slug": "vsp-individual-vision-plans",
         "title": "VSP Individual Vision Plans",
-        "year": "2020",
+        "year": "",
         "lede": "Eyeglasses are simple to operate. Just put them on. These ads are easy to like. Just watch them.",
     },
     {
         "slug": "our-kids-now",
         "title": "Our Schools Now",
-        "year": "2020",
+        "year": "",
         "lede": "This was a proposed bill to get more funding for classrooms. So we used the best spokespeople we could find.",
     },
     {
         "slug": "radio-spots",
         "title": "Radio Spots",
-        "year": "2020",
+        "year": "",
         "lede": "I love the challenge of radio. Hopefully you’ll love these.",
         "list": [
             "Utah Department of Transportation — “Rollercoaster”",
@@ -85,13 +85,13 @@ PROJECTS = [
     {
         "slug": "csu-global",
         "title": "CSU-Global",
-        "year": "2020",
+        "year": "",
         "lede": "",
     },
     {
         "slug": "miscellaneous-stuff",
         "title": "Miscellaneous Stuff",
-        "year": "2020",
+        "year": "",
         "lede": "",
     },
 ]

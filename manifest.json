@@ -1,0 +1,118 @@
+{
+  "morgan-jewelers": {
+    "cover": null,
+    "images": [
+      "img/morgan-jewelers/01.png",
+      "img/morgan-jewelers/02.png",
+      "img/morgan-jewelers/03.png",
+      "img/morgan-jewelers/04.png",
+      "img/morgan-jewelers/05.png",
+      "img/morgan-jewelers/06.png",
+      "img/morgan-jewelers/07.jpg",
+      "img/morgan-jewelers/08.jpg",
+      "img/morgan-jewelers/09.jpg",
+      "img/morgan-jewelers/10.jpg"
+    ],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/AjWLSBY4FjM/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Kogu-wPdrjv/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/5kwo8ytbyFC/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Ey38JhSgWwo/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/PsGTJrByrvP/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/765mfRj2T_F/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/LURoDfDEXqs/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/8iSYAi26Wdk/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "zions-bank": {
+    "cover": null,
+    "images": [],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/6cAYYtr2a3Z/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/FjMKTsPVAHS/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/CIuxkzjwa39/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Rzsg9Ieyamw/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/327g9Hf7mad/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/83Ab9uV5gdW/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/JBN4e-Uo53a/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/PJScY7ivBgx/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/E9yTaK6Myhq/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/TP9WATAWHma/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/S9IZiLFH2mJ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "arches-health-plan": {
+    "cover": null,
+    "images": [],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/Q99B6rkS6xt/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/K5ovDPmU7ca/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/-ixYjqTNH2F/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/KgjfISi6Cfh/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/NGmod5DpmKm/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/ADCSTkk7gzX/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "vsp-individual-vision-plans": {
+    "cover": null,
+    "images": [
+      "img/vsp-individual-vision-plans/01.png",
+      "img/vsp-individual-vision-plans/02.png"
+    ],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/Fn-dRWmqkmK/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Udqp5gXUHX7/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/F5PcV-8XZ9U/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Ga9F5heMm_A/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/TubhsFzVsbL/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/TjRYdn6tR_k/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/6faco9RKDyi/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/LrWMtS3IG58/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "our-kids-now": {
+    "cover": null,
+    "images": [],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/9sEqdt2nQpb/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/3owwj9uh2aQ/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/WUQUnPWnCFV/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/MG6pLTQT8Dy/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "radio-spots": {
+    "cover": null,
+    "images": [],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/KUE8iJjRWzv/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/4PwiVmg8t5Y/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/INhMjPhFDaS/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/SsAWb6qutaW/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/FSEgGnB7X7m/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/-NH2UkJDRdB/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/EHtFuS6omxA/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View",
+      "https://www-ccv.adobe.io/v1/player/ccv/Qz2xRDvTwgt/embed?bgcolor=%23bebebe&autohide=false&lazyLoading=true&maxframewidth=6400&maxframeheight=75&api_key=BehancePro2View"
+    ]
+  },
+  "csu-global": {
+    "cover": null,
+    "images": [],
+    "videos": [
+      "https://www-ccv.adobe.io/v1/player/ccv/HwHpESnuIHv/embed?bgcolor=%23191919&lazyLoading=true&api_key=BehancePro2View"
+    ]
+  },
+  "miscellaneous-stuff": {
+    "cover": null,
+    "images": [
+      "img/miscellaneous-stuff/01.jpg",
+      "img/miscellaneous-stuff/02.png",
+      "img/miscellaneous-stuff/03.png",
+      "img/miscellaneous-stuff/04.png",
+      "img/miscellaneous-stuff/05.png",
+      "img/miscellaneous-stuff/06.png",
+      "img/miscellaneous-stuff/07.png",
+      "img/miscellaneous-stuff/08.png"
+    ],
+    "videos": []
+  }
+}

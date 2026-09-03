@@ -93,3 +93,33 @@ img { max-width: 100%; display: block; height: auto; }
   font-weight: 500;
 }
 .contact-block a.big { display: block; margin-top: 1.2rem; font-size: 1.3rem; }
+
+.feature {
+  padding: 0 6vw 4vh;
+  display: block;
+}
+.feature .thumb {
+  background: #1a1816;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.feature img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.feature:hover img { transform: scale(1.02); }
+.feature .meta { padding: 0.8rem 0 0; display: flex; justify-content: space-between; gap: 1rem; align-items: baseline; }
+.feature .meta strong { font-weight: 600; font-size: 1.05rem; }
+.feature .meta span { color: var(--mute); font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.section-label {
+  padding: 0 6vw 1rem;
+  color: var(--mute);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+}
+.grid { padding-bottom: 3vh; }
+.also {
+  padding: 0 6vw 8vh;
+  display: flex; flex-wrap: wrap; gap: 0.6rem 1.6rem;
+}
+.also a { color: var(--paper); border-bottom: 1px solid var(--line); padding-bottom: 2px; }
+.also a:hover { border-color: var(--paper); }
+.also span { color: var(--mute); font-size: 0.8rem; margin-left: 0.45rem; }

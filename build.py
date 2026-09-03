@@ -134,6 +134,15 @@ img { max-width: 100%; display: block; height: auto; }
 .wordmark { letter-spacing: 0.12em; text-transform: uppercase; font-size: 0.78rem; font-weight: 600; }
 .nav nav { display: flex; gap: 1.4rem; font-size: 0.9rem; color: var(--mute); }
 .nav nav a:hover { color: var(--paper); }
+
+.kicker-hero {
+  color: var(--mute);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 1.1rem;
+}
 .hero { padding: 12vh 6vw 8vh; max-width: 58rem; }
 .hero h1 {
   font-family: "Newsreader", Georgia, serif;
@@ -239,6 +248,7 @@ for p in PROJECTS:
 
 index_body = f'''
 <section class="hero">
+  <p class="kicker-hero">Artificial Intelligence. Genuine Taste.</p>
   <h1>Creative Director. Copywriter. Maker of Awesome Thingys®.</h1>
   <p class="sub">Utah CD for brands like Zions and VSP. Now building with AI — Found Money Friend, and more. Currently in a Leland AI cohort, with a certificate on the way.</p>
 </section>

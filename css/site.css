@@ -273,21 +273,22 @@ img { max-width: 100%; display: block; height: auto; }
 }
 
 /* Click-to-zoom stills */
-.stills img { cursor: zoom-in; }
+.stills img { cursor: zoom-in; transition: opacity .15s ease; }
+.stills img:hover { opacity: 0.88; }
 .lb-root {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: rgba(8, 8, 8, 0.92);
+  background: rgba(8, 8, 8, 0.94);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4vh 4vw;
+  padding: 3vh 3vw;
   cursor: zoom-out;
 }
 .lb-img {
-  max-width: min(1100px, 96vw);
-  max-height: 92vh;
+  max-width: min(1400px, 98vw);
+  max-height: 94vh;
   width: auto;
   height: auto;
   object-fit: contain;

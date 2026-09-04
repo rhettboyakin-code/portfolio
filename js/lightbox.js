@@ -29,18 +29,38 @@
     document.body.appendChild(root);
   }
 
-  document.addEventListener("click", function (e) {
-    var img = e.target.closest(".stills img");
-    if (!img) return;
-    // If the image is wrapped in a real outbound link (not #), leave it alone
+  function stillTarget(el) {
+    return el && el.closest ? el.closest(".stills img") : null;
+  }
+
+  function shouldBypass(img) {
     var link = img.closest("a[href]");
-    if (link) {
-      var href = link.getAttribute("href") || "";
-      if (href && href.charAt(0) !== "#" && !href.startsWith("javascript:")) {
-        return;
-      }
-    }
-    e.preventDefault();
+    if (!link) return false;
+    var href = link.getAttribute("href") || "";
+    return !!(href && href.charAt(0) !== "#" && href.indexOf("javascript:") !== 0);
+  }
+
+  function openFromImg(img, e) {
+    if (!img || shouldBypass(img)) return false;
+    if (e) e.preventDefault();
     openLightbox(img.currentSrc || img.src, img.alt);
+    return true;
+  }
+
+  document.addEventListener("click", function (e) {
+    openFromImg(stillTarget(e.target), e);
+  });
+
+  // Make stills keyboard-activatable
+  document.querySelectorAll(".stills img").forEach(function (img) {
+    if (!img.hasAttribute("tabindex")) img.setAttribute("tabindex", "0");
+    if (!img.hasAttribute("role")) img.setAttribute("role", "button");
+    img.setAttribute("aria-label", img.getAttribute("aria-label") || "View larger");
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var img = stillTarget(e.target);
+    if (!img) return;
+    openFromImg(img, e);
   });
 })();

@@ -271,3 +271,39 @@ img { max-width: 100%; display: block; height: auto; }
 .hero-sting {
   color: var(--mute);
 }
+
+/* Click-to-zoom stills */
+.stills img { cursor: zoom-in; }
+.lb-root {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(8, 8, 8, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vh 4vw;
+  cursor: zoom-out;
+}
+.lb-img {
+  max-width: min(1100px, 96vw);
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 12px 60px rgba(0,0,0,0.45);
+  cursor: default;
+}
+.lb-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  background: transparent;
+  border: 0;
+  color: #f4efe6;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.85;
+}
+.lb-close:hover { opacity: 1; }

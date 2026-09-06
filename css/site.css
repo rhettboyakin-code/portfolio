@@ -343,3 +343,84 @@ img { max-width: 100%; display: block; height: auto; }
 }
 @media (max-width: 760px) { .book-grid { grid-template-columns: 1fr; } }
 .book-grid .card .thumb { aspect-ratio: 4/3; }
+
+/* HTML spot cards — one type system, no baked images */
+.spot-card {
+  position: relative;
+  display: block;
+  padding: 0 4vw 3.5vh;
+  text-decoration: none;
+}
+.spot {
+  background: #060606;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  padding: clamp(1.25rem, 3.2vw, 2.75rem) clamp(1.25rem, 3.5vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.spot-label {
+  font-family: "Figtree", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  line-height: 1.2;
+}
+.spot-rule {
+  width: 2.75rem;
+  height: 2px;
+  border: 0;
+  background: var(--accent);
+  margin: 0.85rem 0 1rem;
+}
+.spot-setup {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.35rem, 2.4vw, 2.15rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--paper);
+  max-width: 18ch;
+  margin: 0;
+}
+.spot-payoff {
+  font-family: "Newsreader", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(0.95rem, 1.35vw, 1.2rem);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--accent);
+  max-width: 28ch;
+  margin: 0.7rem 0 0;
+}
+.spot-meta {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  font-family: "Figtree", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mute);
+}
+.spot-go {
+  position: absolute;
+  right: calc(4vw + 1.25rem);
+  bottom: calc(3.5vh + 1.1rem);
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.spot-card:hover .spot { border-color: #3a3630; }
+.spot-card:hover .spot-go { color: var(--paper); }
+
+@media (max-width: 640px) {
+  .spot-go { right: calc(4vw + 1rem); bottom: calc(3.5vh + 0.9rem); }
+}

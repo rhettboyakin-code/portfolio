@@ -308,3 +308,18 @@ img { max-width: 100%; display: block; height: auto; }
   opacity: 0.85;
 }
 .lb-close:hover { opacity: 1; }
+
+.role-sub {
+  max-width: 36rem;
+  margin-top: 0.75rem;
+  color: var(--mute);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+.lane {
+  padding-top: 0.5rem;
+}
+.feature.compact {
+  padding-bottom: 4vh;
+}

@@ -344,23 +344,51 @@ img { max-width: 100%; display: block; height: auto; }
 @media (max-width: 760px) { .book-grid { grid-template-columns: 1fr; } }
 .book-grid .card .thumb { aspect-ratio: 4/3; }
 
-/* HTML spot cards — Martin-inspired: tiny brand, huge idea, air */
+/* HTML spot cards — idea + still (Martin-ish rows) */
 .spot-card {
   display: block;
-  padding: 0 5vw 0;
-  margin: 0 0 3.5rem;
+  padding: 0 5vw;
+  margin: 0 0 3.25rem;
   text-decoration: none;
   color: inherit;
 }
 .spot {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+  align-items: center;
   background: transparent;
   border: 0;
   width: 100%;
   padding: 0;
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
 }
+.spot-media {
+  background: #12110f;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.spot-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .45s ease;
+}
+.spot-media-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+  aspect-ratio: 16 / 10;
+}
+.spot-media-split img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.spot-card:hover .spot-media img { transform: scale(1.03); }
+.spot-copy { min-width: 0; }
 .spot-label {
   font-family: "Figtree", system-ui, sans-serif;
   font-weight: 600;
@@ -369,35 +397,32 @@ img { max-width: 100%; display: block; height: auto; }
   text-transform: uppercase;
   color: var(--mute);
   line-height: 1.2;
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.7rem;
 }
 .spot-rule { display: none; }
 .spot-setup {
   font-family: "Newsreader", Georgia, serif;
   font-weight: 500;
-  font-size: clamp(2rem, 7.5vw, 3.6rem);
-  line-height: 1.02;
+  font-size: clamp(1.85rem, 6.5vw, 2.75rem);
+  line-height: 1.05;
   letter-spacing: -0.03em;
   color: var(--paper);
-  max-width: 12ch;
+  max-width: 14ch;
   margin: 0;
 }
 .spot-payoff {
   font-family: "Figtree", system-ui, sans-serif;
   font-weight: 400;
-  font-size: clamp(1rem, 2.4vw, 1.15rem);
+  font-size: 1.02rem;
   line-height: 1.45;
-  letter-spacing: 0;
   color: var(--mute);
   max-width: 34ch;
-  margin: 1rem 0 0;
+  margin: 0.85rem 0 0;
 }
-.spot-meta {
-  display: none; /* keep chrome quiet; details live on case pages */
-}
+.spot-meta { display: none; }
 .spot-go {
   display: inline-block;
-  margin-top: 1.15rem;
+  margin-top: 1rem;
   color: var(--accent);
   font-size: 0.72rem;
   letter-spacing: 0.14em;
@@ -407,25 +432,18 @@ img { max-width: 100%; display: block; height: auto; }
 .spot-card:hover .spot-setup { color: var(--accent); }
 .spot-card:hover .spot-go { color: var(--paper); }
 
-.feature-stack .section-label {
-  margin-top: 2.5rem;
-  margin-bottom: 0.35rem;
-  opacity: 0.85;
-}
-.feature-stack .section-label:first-of-type,
-.lane .section-label:first-of-type {
-  margin-top: 0.5rem;
-}
-
-@media (min-width: 768px) {
-  .spot-card { padding: 0 6vw; margin-bottom: 5.5rem; }
+@media (min-width: 860px) {
+  .spot-card { padding: 0 6vw; margin-bottom: 4.75rem; }
+  .spot {
+    grid-template-columns: 1.15fr 1fr;
+    gap: 2.25rem;
+  }
+  .spot-card:nth-child(even) .spot-media { order: 2; }
   .spot-setup {
-    font-size: clamp(2.8rem, 5.2vw, 4.4rem);
-    max-width: 14ch;
+    font-size: clamp(2.4rem, 4vw, 3.6rem);
+    max-width: 12ch;
   }
-  .spot-payoff {
-    font-size: 1.15rem;
-    max-width: 38ch;
-    margin-top: 1.25rem;
-  }
+  .spot-payoff { font-size: 1.1rem; max-width: 36ch; }
+  .spot-media { aspect-ratio: 5 / 4; }
+  .spot-media-split { aspect-ratio: 5 / 4; }
 }

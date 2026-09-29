@@ -502,3 +502,9 @@ img { max-width: 100%; display: block; height: auto; }
   .hero { padding-top: 5vh; }
 }
 .credit { margin-top: 2rem; color: var(--paper); }
+
+/* sep28: gallery cards — one 3:2 frame for every cover */
+.card .thumb { aspect-ratio: 3 / 2; background: #f2f1ee; }
+.card img { object-fit: cover; object-position: center; }
+.card .meta { padding-top: 0.9rem; }
+.card .blurb { min-height: 1.35em; }

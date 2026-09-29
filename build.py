@@ -105,7 +105,7 @@ NAV = '''<header class="nav">
 </header>'''
 
 FOOT = '''<footer class="foot">
-  <p>Rhett Boyakin · Creative Director. Copywriter. Maker of Awesome Thingys®.</p>
+  <p>Rhett Boyakin · Open to Lead Copywriter and CD roles.</p>
   <p><a href="mailto:rhettboyakin@gmail.com">rhettboyakin@gmail.com</a></p>
 </footer>'''
 
@@ -249,7 +249,7 @@ for p in PROJECTS:
 index_body = f'''
 <section class="hero">
   <p class="kicker-hero">Artificial Intelligence. Genuine Taste.</p>
-  <h1>Creative Director. Copywriter. Maker of Awesome Thingys®.</h1>
+  <h1>Open to Lead Copywriter and CD roles.</h1>
   <p class="sub">Utah CD for brands like Zions and VSP. Now building with AI — Found Money Friend, and more. Currently in a Leland AI cohort, with a certificate on the way.</p>
 </section>
 <section class="grid" id="work">

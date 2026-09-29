@@ -1,6 +1,6 @@
 # Rhett Boyakin — portfolio
 
-Creative Director. Copywriter. Maker of Awesome Thingys®.
+Senior Copywriter / Creative Director.
 
 This replaces the locked Adobe Portfolio at rhettboyakinportfolio.com. Agency work is archived here. Revenue Bloom sits first.
 

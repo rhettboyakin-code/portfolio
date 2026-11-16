@@ -508,3 +508,16 @@ img { max-width: 100%; display: block; height: auto; }
 .card img { object-fit: cover; object-position: center; }
 .card .meta { padding-top: 0.9rem; }
 .card .blurb { min-height: 1.35em; }
+
+/* NIYA LinkedIn series: three portrait ads in a row */
+.page-series { max-width: 72rem; }
+.stills-series {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.6rem 0 2rem;
+}
+.stills-series img { width: 100%; height: auto; }
+@media (max-width: 760px) {
+  .stills-series { grid-template-columns: 1fr; gap: 1.2rem; }
+}
